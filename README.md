@@ -2,6 +2,8 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
 
+![alt text](https://www.openium.fr/images/actualites/notes-commentaires-store.jpeg)
+
 ## Description
 
 Ce projet est une plateforme de vente en ligne dédiée aux articles de glisse d'occasion, facilitant les transactions entre particuliers. L'objectif est de permettre aux amateurs de sports de glisse, tels que le surf, le snowboard, le skateboard et autres. Afin de pouvoir acheter et vendre des équipements d'occasion de manière sécurisée et pratique.
