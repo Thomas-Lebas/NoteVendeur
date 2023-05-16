@@ -1,12 +1,12 @@
 # Note et commentaire vendeur
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-spring.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
 
 ## Description
 
-Ce projet est une plateforme de vente en ligne dédiée aux articles de glisse d'occasion, facilitant les transactions entre particuliers. L'objectif est de permettre aux amateurs de sports de glisse, tels que le surf, le snowboard, le skateboard, etc., d'acheter et de vendre des équipements d'occasion de manière sécurisée et pratique.
+Ce projet est une plateforme de vente en ligne dédiée aux articles de glisse d'occasion, facilitant les transactions entre particuliers. L'objectif est de permettre aux amateurs de sports de glisse, tels que le surf, le snowboard, le skateboard et autres. Afin de pouvoir acheter et vendre des équipements d'occasion de manière sécurisée et pratique.
 
-Après chaque transaction, les utilisateurs peuvent laisser une évaluation et des commentaires sur l'autre partie. Cela permet de renforcer la confiance au sein de la communauté et d'encourager les comportements responsables.
+Après chaque transaction, les utilisateurs peuvent laisser une évaluation et des commentaires sur le vendeur. Cela permet de renforcer la confiance au sein de la communauté et d'encourager les comportements responsables.
 
 # Table des matières
 
@@ -29,13 +29,11 @@ Après chaque transaction, les utilisateurs peuvent laisser une évaluation et d
 
 ### Installation et Démarrage
 
-Cloner le dossier avec ``git clone https://github.com/HugoFerry/EPSI_B3_Projet_JAVA_FSL.git``. \
-Ouvrez le dossier cloné sur votre IDE préféré de java. \
-Installer les différents packages s'il vous en manque.
-
-Se rendre sur le fichier ``Main.java`` en suivant le chemin suivant :
-``EPSI_B3_Projet_JAVA_FSL-DEV\src\main\java\projet`` \
-Lancer le fichier ``Main.java`` via votre IDE.
+- Ouvrez votre IDE préféré de java.
+- Cloner le dossier avec ``git clone https://github.com/Thomas-Lebas/NoteVendeur.git``
+- Vérifier qu'il n'y ai pas de problème de package.
+- Se rendre dans le fichier ``application.properties``, pour mettre les informations de connexion de votre base de données, en suivant le chemin suivant :
+``EPSI_B3_Projet_JAVA_FSL-DEV\src\main\java\projet``
 
 ## API
 
