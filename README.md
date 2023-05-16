@@ -71,7 +71,7 @@ Première requête pour récupérer tous les avis :
 }
 ```
 
-Deuxième requête pour récupérer tous les avis d'un utilisateur :white_check_mark: :
+:white_check_mark: Deuxième requête pour récupérer tous les avis d'un utilisateur :
 
 ```json5
 // GET /Avis/user/{id_utilisateur} 
