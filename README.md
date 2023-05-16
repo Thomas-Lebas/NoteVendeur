@@ -178,8 +178,8 @@ Nos tokens d'authentification ne sont pas configurés, nous attendons son implé
 
 ## Versions
 
-* **Dernière version stable :** 0
-* **Dernière version :** 0
+* **Dernière version stable :** 1.0.0
+* **Dernière version :** 1.0.0
 * Liste des versions : [Cliquer pour afficher](https://github.com/Thomas-Lebas/NoteVendeur/tags)
 
 ## Auteurs
