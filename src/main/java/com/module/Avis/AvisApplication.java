@@ -1,0 +1,21 @@
+package com.module.Avis;
+
+import jakarta.annotation.PostConstruct;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AvisApplication {
+
+
+	public static void main(String[] args) {
+		SpringApplication.run(AvisApplication.class, args);
+	}
+
+	@PostConstruct
+	public void init()
+	{
+
+	}
+
+}
