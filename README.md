@@ -6,7 +6,9 @@
 
 Ce projet est une plateforme de vente en ligne dédiée aux articles de glisse d'occasion, facilitant les transactions entre particuliers. L'objectif est de permettre aux amateurs de sports de glisse, tels que le surf, le snowboard, le skateboard et autres. Afin de pouvoir acheter et vendre des équipements d'occasion de manière sécurisée et pratique.
 
-Après chaque transaction, les utilisateurs peuvent laisser une évaluation et des commentaires sur le vendeur. Cela permet de renforcer la confiance au sein de la communauté et d'encourager les comportements responsables.
+Après chaque transaction, les utilisateurs peuvent laisser une évaluation et des commentaires sur le vendeur. Cela permet de renforcer la confiance au sein de la communauté et d'encourager les comportements responsables. 
+
+Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque vendeur dont il effectue leurs commandes.
 
 # Table des matières
 
@@ -30,12 +32,12 @@ Après chaque transaction, les utilisateurs peuvent laisser une évaluation et d
 ### Installation et Démarrage
 
 - Ouvrez votre IDE préféré de java.
-- Cloner le dossier avec ``git clone https://github.com/Thomas-Lebas/NoteVendeur.git``
-- Vérifier qu'il n'y ai pas de problème de package.
+- Cloner le dossier avec ``git clone https://github.com/Thomas-Lebas/NoteVendeur.git`` .
+- Vérifier qu'il n'y ai pas de problème de package dans le ``pom.xml`` .
 - Se rendre dans le fichier ``application.properties``, pour mettre les informations de connexion de votre base de données, en suivant le chemin suivant :
 ``EPSI_B3_Projet_JAVA_FSL-DEV\src\main\java\projet``
 
-## API
+## Exemple d'utilisation API
 
 Première requête pour récupérer tous les avis :
 
@@ -69,7 +71,7 @@ Première requête pour récupérer tous les avis :
 }
 ```
 
-Deuxième requête pour récupérer tous les avis d'un utilisateur :
+Deuxième requête pour récupérer tous les avis d'un utilisateur :white_check_mark: :
 
 ```json5
 // GET /Avis/user/{id_utilisateur} 
