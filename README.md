@@ -40,7 +40,8 @@ Lancer le fichier ``Main.java`` via votre IDE.
 ## API
 
 Première requête pour récupérer tous les avis :
-```json
+
+```json5
 // GET /Avis/ :
 
 {
@@ -72,7 +73,7 @@ Première requête pour récupérer tous les avis :
 
 Deuxième requête pour récupérer tous les avis d'un utilisateur :
 
-```json
+```json5
 // GET /Avis/user/{id_utilisateur} 
 
 {
@@ -109,7 +110,7 @@ Troisième requête pour récupérer un avis :
 
 Quatrième requête pour poster un avis :
 
-```jsonc
+```json5
 // POST /Avis/
 
 // Demande : "HEADER" : Token
@@ -132,7 +133,7 @@ Quatrième requête pour poster un avis :
 
 Cinquième requête pour mettre un avis :
 
-```yaml
+```json 5
 // PUT /avis/{id}
 
 // Demande : "HEADER" : Token
@@ -154,7 +155,7 @@ Cinquième requête pour mettre un avis :
 
 Sixième requête pour supprimer un avis :
 
-```json
+```json5
 // DELETE /avis/{id}
 
 // Demande : "HEADER" : Token
