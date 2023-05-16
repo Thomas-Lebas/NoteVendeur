@@ -39,7 +39,7 @@ Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque ve
 
 ## Exemple d'utilisation API
 
-Première requête pour récupérer tous les avis :
+:x: Première requête pour récupérer tous les avis :
 
 ```json5
 // GET /Avis/ :
@@ -94,7 +94,7 @@ Première requête pour récupérer tous les avis :
 }
 ```
 
-Troisième requête pour récupérer un avis :
+:white_check_mark: Troisième requête pour récupérer un avis :
 
 ```json5
 // GET /avis/{id}
@@ -108,7 +108,7 @@ Troisième requête pour récupérer un avis :
 }
 ```
 
-Quatrième requête pour poster un avis :
+:x: Quatrième requête pour poster un avis :
 
 ```json5
 // POST /Avis/
@@ -131,7 +131,7 @@ Quatrième requête pour poster un avis :
 }
 ```
 
-Cinquième requête pour mettre un avis :
+:x: Cinquième requête pour mettre un avis :
 
 ```json5
 // PUT /avis/{id}
@@ -153,7 +153,7 @@ Cinquième requête pour mettre un avis :
 }
 ```
 
-Sixième requête pour supprimer un avis :
+:x: Sixième requête pour supprimer un avis :
 
 ```json5
 // DELETE /avis/{id}
