@@ -133,7 +133,7 @@ Quatrième requête pour poster un avis :
 
 Cinquième requête pour mettre un avis :
 
-```json 5
+```json5
 // PUT /avis/{id}
 
 // Demande : "HEADER" : Token
