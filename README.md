@@ -95,7 +95,7 @@ Deuxième requête pour récupérer tous les avis d'un utilisateur :
 
 Troisième requête pour récupérer un avis :
 
-```json
+```json5
 // GET /avis/{id}
 
 {
@@ -109,7 +109,7 @@ Troisième requête pour récupérer un avis :
 
 Quatrième requête pour poster un avis :
 
-```json
+```jsonc
 // POST /Avis/
 
 // Demande : "HEADER" : Token
@@ -133,9 +133,9 @@ Quatrième requête pour poster un avis :
 Cinquième requête pour mettre un avis :
 
 ```yaml
-PUT /avis/{id}
+// PUT /avis/{id}
 
-Demande : "HEADER" : Token
+// Demande : "HEADER" : Token
 
 {
   "titre": "Nouveau titre de l'avis",
