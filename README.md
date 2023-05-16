@@ -1,4 +1,4 @@
-# Note et commentaire vendeur
+# API Note/Commentaire Vendeur
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](http://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
 
@@ -39,7 +39,7 @@ Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque ve
 - Se rendre dans le fichier ``application.properties``, pour mettre les informations de connexion de votre base de données, en suivant le chemin suivant :
 ``NoteVendeur\src\main\ressources\application.properties``
 
-## Exemple d'utilisation API
+## Exemple de l'utilisation API
 
 :x: Première requête pour récupérer tous les avis :
 
