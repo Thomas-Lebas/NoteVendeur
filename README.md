@@ -1,7 +1,5 @@
 # Note et commentaire vendeur
 
-Application permettant de voir différentes statistiques sur les saisons de ligue 1 de football français depuis 2002.
-
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](http://forthebadge.com)
 
 ## Description
@@ -17,9 +15,10 @@ Après chaque transaction, les utilisateurs peuvent laisser une évaluation et d
 3. [Pour commencer](#pour-commencer)
 4. [Pré-requis](#pr-requis)
 5. [Installation et Démarrage](#installation-et-dmarrage)
-6. [Fabriqué avec](#fabriqu-avec)
-7. [Versions](#versions)
-8. [Auteurs](#auteurs)
+6. [API](#api)
+7. [Fabriqué avec](#fabriqu-avec)
+8. [Versions](#versions)
+9. [Auteurs](#auteurs)
 
 ## Pour commencer
 
@@ -28,7 +27,7 @@ Après chaque transaction, les utilisateurs peuvent laisser une évaluation et d
 - Avoir un IDE adapté à Java.
 - Avoir les différents packages nécessaires, sinon les installer après avoir ouvert le projet.
 
-### Installation et Démarrage`
+### Installation et Démarrage
 
 Cloner le dossier avec ``git clone https://github.com/HugoFerry/EPSI_B3_Projet_JAVA_FSL.git``. \
 Ouvrez le dossier cloné sur votre IDE préféré de java. \
@@ -37,6 +36,8 @@ Installer les différents packages s'il vous en manque.
 Se rendre sur le fichier ``Main.java`` en suivant le chemin suivant :
 ``EPSI_B3_Projet_JAVA_FSL-DEV\src\main\java\projet`` \
 Lancer le fichier ``Main.java`` via votre IDE.
+
+## API
 
 ## Fabriqué avec
 
