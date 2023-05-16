@@ -3,10 +3,9 @@ package com.module.Avis.controller;
 
 import com.module.Avis.entity.Avis;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,7 +21,6 @@ public class AvisController {
 
     @GetMapping("/avis/{id}")
     public ResponseEntity<Avis> getAvisById(@PathVariable("id") int id) {
-        // Code pour récupérer l'avis avec l'ID spécifié depuis la base de données ou une autre source
         Avis avis = avisService.getAvisById(id);
 
         if (avis != null) {
@@ -34,7 +32,6 @@ public class AvisController {
 
     @GetMapping("/Avis/user/{id_utilisateur}")
     public ResponseEntity<List<Avis>> getAvisByUserId(@PathVariable("id_utilisateur") int userId) {
-        // Code pour récupérer tous les avis de l'utilisateur avec l'ID spécifié depuis la base de données ou une autre source
         List<Avis> avisList = avisService.getAvisByUserId(userId);
 
         if (!avisList.isEmpty()) {
@@ -42,5 +39,34 @@ public class AvisController {
         } else {
             return ResponseEntity.notFound().build();
         }
+    }
+
+    @PostMapping
+    public ResponseEntity<Avis> createAvis(@RequestBody Avis avis, @RequestHeader("Authorization") String token) {
+        // Vérifier l'authenticité du token ici
+
+
+        Avis nouveauAvis = avisService.createAvis(avis);
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(nouveauAvis);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Avis> updateAvis(@PathVariable("id") int id, @RequestBody Avis avis, @RequestHeader("Authorization") String token) {
+        // Vérifier l'authenticité du token ici
+
+
+        Avis avisMisAJour = avisService.updateAvis(id, avis);
+
+        return ResponseEntity.status(HttpStatus.OK).body(avisMisAJour);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteAvis(@PathVariable("id") int id, @RequestHeader("Authorization") String token) {
+        // Vérifier l'authenticité du token ici
+
+        avisService.deleteAvis(id);
+
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
 }
