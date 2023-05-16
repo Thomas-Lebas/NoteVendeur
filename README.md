@@ -41,7 +41,7 @@ Lancer le fichier ``Main.java`` via votre IDE.
 
 Première requête pour récupérer tous les avis :
 ```json
-GET /Avis/ :
+// GET /Avis/ :
 
 {
   "avis": [
@@ -49,19 +49,22 @@ GET /Avis/ :
       "id": 1,
       "titre": "Excellent produit",
       "description": "Je suis très satisfait de ce produit. Il est de haute qualité et répond parfaitement à mes attentes.",
-      "note": 5
+      "note": 5,
+      "id_utilisateur": 2
     },
     {
       "id": 2,
       "titre": "Décevant",
       "description": "Malheureusement, ce produit ne répond pas à mes attentes. La qualité est médiocre et je ne le recommande pas.",
-      "note": 2
+      "note": 2,
+      "id_utilisateur": 18
     },
     {
       "id": 3,
       "titre": "Très bon rapport qualité-prix",
       "description": "Ce produit offre un excellent rapport qualité-prix. Je suis agréablement surpris par ses performances.",
-      "note": 4
+      "note": 4,
+      "id_utilisateur": 5
     }
   ]
 }
@@ -70,7 +73,7 @@ GET /Avis/ :
 Deuxième requête pour récupérer tous les avis d'un utilisateur :
 
 ```json
-GET /Avis/user/{id_utilisateur} 
+// GET /Avis/user/{id_utilisateur} 
 
 {
   "avis": [
@@ -93,24 +96,23 @@ GET /Avis/user/{id_utilisateur}
 Troisième requête pour récupérer un avis :
 
 ```json
-GET /avis/{id}
+// GET /avis/{id}
 
 {
   "id": 5,
   "titre": "Bonne expérience d'achat",
   "description": "J'ai eu une expérience d'achat agréable avec ce vendeur. Livraison rapide et produit conforme.",
-  "note": 4
-"id_utilisateur": 15
+  "note": 4,
+  "id_utilisateur": 15
 }
 ```
 
 Quatrième requête pour poster un avis :
 
 ```json
-POST /Avis/
-Content-Type: application/json
+// POST /Avis/
 
-Demande : "HEADER" : Token
+// Demande : "HEADER" : Token
 
 {
   "titre": "Excellent service",
@@ -119,7 +121,7 @@ Demande : "HEADER" : Token
 "num_commande": "EUYTICHG5689LK"
 } 
 
-Réponse Body :
+// Réponse Body :
 {
   "id": 8,
   "titre": "Excellent service",
@@ -131,9 +133,9 @@ Réponse Body :
 Cinquième requête pour mettre un avis :
 
 ```json
-PUT /avis/{id}
+// PUT /avis/{id}
 
-Demande : "HEADER" : Token
+// Demande : "HEADER" : Token
 
 {
   "titre": "Nouveau titre de l'avis",
@@ -141,7 +143,7 @@ Demande : "HEADER" : Token
   "note": 3
 } 
 
-Réponse Body :
+// Réponse Body :
 {
   "id": 3,
   "titre": "Nouveau titre de l'avis",
@@ -153,11 +155,11 @@ Réponse Body :
 Sixième requête pour supprimer un avis :
 
 ```json
-DELETE /avis/{id}
+// DELETE /avis/{id}
 
-Demande : "HEADER" : Token
+// Demande : "HEADER" : Token
 
-Réponse :
+// Réponse :
 {
   "message": "L'avis avec l'id 3 a été supprimé avec succès."
 }
