@@ -41,6 +41,8 @@ Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque ve
 
 ## Exemple de l'utilisation API
 
+Nos tokens d'authentification ne sont pas configurés, nous attendons son implémentation.
+
 :x: Première requête pour récupérer tous les avis :
 
 ```json5
@@ -110,7 +112,7 @@ Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque ve
 }
 ```
 
-:x: Quatrième requête pour poster un avis :
+:white_check_mark: Quatrième requête pour poster un avis :
 
 ```json5
 // POST /Avis/
@@ -133,7 +135,7 @@ Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque ve
 }
 ```
 
-:x: Cinquième requête pour mettre un avis :
+:white_check_mark: Cinquième requête pour mettre un avis :
 
 ```json5
 // PUT /avis/{id}
@@ -155,7 +157,7 @@ Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque ve
 }
 ```
 
-:x: Sixième requête pour supprimer un avis :
+:white_check_mark: Sixième requête pour supprimer un avis :
 
 ```json5
 // DELETE /avis/{id}
