@@ -132,10 +132,10 @@ Quatrième requête pour poster un avis :
 
 Cinquième requête pour mettre un avis :
 
-```json
-// PUT /avis/{id}
+```yaml
+PUT /avis/{id}
 
-// Demande : "HEADER" : Token
+Demande : "HEADER" : Token
 
 {
   "titre": "Nouveau titre de l'avis",
