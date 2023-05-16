@@ -8,7 +8,7 @@ Ce projet est une plateforme de vente en ligne dédiée aux articles de glisse d
 
 Après chaque transaction, les utilisateurs peuvent laisser une évaluation et des commentaires sur le vendeur. Cela permet de renforcer la confiance au sein de la communauté et d'encourager les comportements responsables. 
 
-Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque vendeur dont il effectue leurs commandes.
+Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque vendeur dont il effectue leurs commandes sur le site de vente en ligne.
 
 # Table des matières
 
@@ -27,15 +27,15 @@ Cette API vise à permettre aux utilisateurs de laisser leurs avis sur chaque ve
 ### Pré-requis
 
 - Avoir un IDE adapté à Java.
-- Avoir les différents packages nécessaires, sinon les installer après avoir ouvert le projet.
+- Possèder la version Java 17.
 
 ### Installation et Démarrage
 
 - Ouvrez votre IDE préféré de java.
 - Cloner le dossier avec ``git clone https://github.com/Thomas-Lebas/NoteVendeur.git`` .
-- Vérifier qu'il n'y ai pas de problème de package dans le ``pom.xml`` .
+- Vérifier qu'il n'y ai pas de problème de package dans le ``pom.xml`` du projet.
 - Se rendre dans le fichier ``application.properties``, pour mettre les informations de connexion de votre base de données, en suivant le chemin suivant :
-``EPSI_B3_Projet_JAVA_FSL-DEV\src\main\java\projet``
+``NoteVendeur\src\main\ressources\application.properties``
 
 ## Exemple d'utilisation API
 
